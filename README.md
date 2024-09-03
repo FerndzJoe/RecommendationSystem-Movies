@@ -234,10 +234,10 @@ The results from the **5k Users** is summarized as follows:
 
 ## Conclusion: 
 
-Co-Clustering provides the best result when you compare the RMSE and MAEs. While the training time is higher, the model performs best when it comes to testing the data. 
+NMF provides the best result when you compare the RMSE and MAEs. While the training time is higher, the model performs best when it comes to testing the data. 
 
-SVD and SlopeOne are closer to Co Clustering. 
+SVD and SlopeOne are closer to Co Clustering. 
 
-kNN Basic, kNN Means, and kNN Z Score does a good job with RMSE and MAEs. However, it takes a lot of time to compute the results. So if we are going to use this for movie recommendations, the cost of processing and recommending a movie will be much higher for each user.
+kNN Basic, kNN Means, and kNN Z Score does a good job but the RMSE and MAEs are higher. Also, it takes a lot of time to compute the results. So if we are going to use this for movie recommendations, the cost of processing and recommending a movie will be much higher for each user.
 
-As part of the implementation, if kNN models are batched and packaged as recommendation for the user ahead of time, then it would serve as the best recommendation system. However, if the solution has to be realtime, kNN performs poorly due to compute time.
+As part of the implementation, if kNN models are batched and packaged as recommendation for the user ahead of time, then it would serve as a good recommendation system. However, if the solution has to be realtime, kNN performs poorly due to compute time.
