@@ -1,4 +1,4 @@
-# Recommendation System for MovieLens 25M Dataset
+# Recommendation System for MovieLens 25M Dataset using SURPRISE library
 
 ## Problem Statement:
 
